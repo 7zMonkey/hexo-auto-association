@@ -1,0 +1,1 @@
+hexo.extend.filter.register('after_post_render', require('./lib/index'), 9);
