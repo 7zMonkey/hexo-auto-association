@@ -17,6 +17,17 @@
 | self           | 是否关联自己     | false              |Boolean: true \| false|
 | mode           | 关键模式         | "all"              |String: single \| all|
 | class_name     | class名称        | "auto-association" | String |
-| log            | 显示日志         | true               | Boolean: true \| false |
 | is_clear_cache | 清除缓存         | true               |  Boolean: true \| false  |
 
+默认的配置项内容如下: 
+```yml
+auto_associations: 
+  enable: true
+  key: association
+  url: /
+  priority: 10
+  self: false
+  mode: all
+  class_name: auto-association
+  is_clear_cache: true
+```
